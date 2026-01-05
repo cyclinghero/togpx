@@ -1,4 +1,4 @@
-var JXON = require("jxon");
+var JXON = require("@cyclinghero/jxon");
 JXON.config({attrPrefix: '@'});
 
 function togpx( geojson, options ) {
