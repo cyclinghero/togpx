@@ -1,7 +1,7 @@
 {
   "name": "@cyclinghero/togpx",
-  "version": "0.5.5",
-  "description": "convert geojson to gpx",
+  "version": "0.5.6",
+  "description": "Convert geojson to gpx. Forked from https://npmjs.com/package/togpx",
   "keywords": [
     "gpx",
     "geojson"
