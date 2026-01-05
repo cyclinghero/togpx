@@ -239,7 +239,7 @@ module.exports = togpx;
       // only CommonJS-like environments that support module.exports,
       // like Node.
 
-      module.exports = factory(require('xmldom'), true);
+      module.exports = factory(require('@xmldom/xmldom'), true);
     }
   } else {
     // Browser globals (root is window)
