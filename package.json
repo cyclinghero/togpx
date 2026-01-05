@@ -1,5 +1,5 @@
 {
-  "name": "ch-togpx",
+  "name": "@cyclinghero/togpx",
   "version": "0.5.5",
   "description": "convert geojson to gpx",
   "keywords": [
@@ -34,10 +34,10 @@
     "test-webkit": "mocha-phantomjs test/index.html"
   },
   "dependencies": {
+    "@cyclinghero/jxon": "~2.0.1",
+    "@xmldom/xmldom": "0.8.11",
     "concat-stream": "~1.0.1",
-    "ch-jxon": "~2.0.1",
-    "optimist": "~0.3.5",
-    "@xmldom/xmldom": "0.8.11"
+    "optimist": "~0.3.5"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
